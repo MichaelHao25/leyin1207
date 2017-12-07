@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit">
+	<title>document</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/public.css" />
+</head>
+<body>
+	<div class="header">
+		<div class="w">
+			<div class="row">
+				<a href="#" class="logo">
+
+				</a>
+				<a href="#" class="sub-logo"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="nav">
+				<span><a href="#">麗瀛国际首页</a></span>
+				<span><a href="#">集团简介</a></span>
+				<span><a href="#">旗下企业展示</a></span>
+				<span><a href="#">权威产品展示</a></span>
+				<span><a href="#">麗瀛国际大记事</a></span>
+				<span><a href="#">联络麗瀛国际</a></span>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="w">
+			<div class="banner">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><a href="#"><img src="img/hico10.png" alt=""></a></div>
+						<div class="swiper-slide"><a href="#"><img src="img/hico12.png" alt=""></a></div>
+						<div class="swiper-slide"><a href="#"><img src="img/hico13.png" alt=""></a></div>
+						<div class="swiper-slide"><a href="#"><img src="img/hico14.png" alt=""></a></div>
+						<div class="swiper-slide"><a href="#"><img src="img/hico16.png" alt=""></a></div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+		<div class="section w">
+			<h2>An internationally recognized sunrise enterprise</h2>
+			<div class="content">
+				<h3>麗瀛国际-科学与财富的相交哲学</h3>
+				<div class="row clear">
+					<div class="left"><img src="img/hico22.png" alt=""></div>
+					<div class="right">
+						<p>2003年于香港成立，企业创立之初以国际贸为根，以发展国际化商品贸易为主，生意涵盖医疗、药品、服装、家居用品，美妆护肤产品，大健康养生类等140多个类别，全球贸易网点覆盖18个国家和地区，年产值100多亿港币，迄今为止已经发展位拥有：3家全资子公司，1家控股子公司，2家生物研究所，1家中医研究院，1家国家级2级甲等综合医院的集团化企业，同时与多所大学深度合作，成立中医药发展基金会，植根大健康产业，为大众健康谋福祉。</p>
+						<div class="tips">
+							Liying international<br>
+							philosophy of intersection of science and wealth
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quick-browse">
+				<h3>快速浏览其他频道</h3>
+				<div class="wrap">
+					<h4>Quickly browse through other channels</h4>
+					<div class="por">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><a href="#"><img src="img/hico30.png" alt=""></a></div>
+								<div class="swiper-slide"><a href="#"><img src="img/hico31.png" alt=""></a></div>
+								<div class="swiper-slide"><a href="#"><img src="img/hico32.png" alt=""></a></div>
+								<div class="swiper-slide"><a href="#"><img src="img/hico33.png" alt=""></a></div>
+								<div class="swiper-slide"><a href="#"><img src="img/hico34.png" alt=""></a></div>
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="#" class="logo"><img src="img/hico3.png" alt=""></a>
+		<p>地址：香港九龍旺角道33號凱途發展大廈7樓04室 电话：00852-27935511 传真：00852-35902333 邮箱：wsc1618@yahoo.com </p>
+		<p>版权所有 © lygj365.com All Rights Reserved，粤ICP备：380959609</p>
+	</div>
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js"></script>
+	<script>
+		var mySwiper = new Swiper ('.banner .swiper-container', {
+			loop: true,
+			nextButton: '.banner .swiper-button-next',
+			prevButton: '.banner .swiper-button-prev',
+			autoplay : 3000,
+		})  
+		var mySwiper = new Swiper ('.quick-browse .swiper-container', {
+			loop: true,
+			nextButton: '.quick-browse .swiper-button-next',
+			prevButton: '.quick-browse .swiper-button-prev',
+			slidesPerView : 5,
+			spaceBetween : 15,
+		})   
+	</script>
+</body>
+</html>
+
